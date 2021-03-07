@@ -1,0 +1,35 @@
+.form-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(
+      to top,
+      rgba(62, 69, 81, 0.7) 0%,
+      rgba(102, 191, 129, 0.7) 100%
+    ),
+    url('https://mdbootstrap.com/img/Photos/Others/pricing-table7.jpg');
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0, 50%, 0, 0;
+}
+
+.btn {
+  color: #fff;
+  background: #099340;
+}
+.forgot-password {
+  color: #099340;
+}
+.form-title {
+  color: #fff;
+}
+.form-title-green {
+  color: #099340;
+}
+.form-link:hover,
+:active {
+  color: #1d2124;
+  text-decoration: none;
+}

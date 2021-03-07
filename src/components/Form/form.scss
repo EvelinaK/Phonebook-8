@@ -1,0 +1,86 @@
+@import 'styles/shared.scss';
+html {
+  font-family: 'Molengo', sans-serif;
+}
+.page-header {
+  background: linear-gradient(to right, #a9b899 68%, #555e4c 100%);
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.2;
+  margin: 2%;
+}
+
+.user-info-form {
+  display: flex;
+  justify-content: center;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%;
+  transition: all 0.2s ease;
+}
+
+.form-input {
+  height: 40px;
+  padding: 0;
+  border: none;
+  padding: 0 10px;
+  font-size: 16px;
+}
+
+.submit-form-btn {
+  border-radius: 5px;
+  border: none;
+  margin: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+  padding: 0.5em;
+  background: linear-gradient(to right, #708657 1%, #555e4c 100%);
+  transition: all 0.2s ease;
+  &:hover,
+  &:focus {
+    background: rgb(170, 189, 171);
+    color: rgb(88, 134, 107);
+    box-shadow: 0 0 15px rgba(140, 179, 155, 0.8);
+  }
+}
+
+header {
+  text-align: center;
+  margin: 30px;
+}
+header h1 {
+  font-family: 'Leckerli One', cursive;
+  font-size: 4rem;
+  margin: 0px;
+  color: brown;
+  text-shadow: 2px 2px 5px white;
+}
+header h2 {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 2.7rem;
+  text-transform: uppercase;
+  margin-top: -20px;
+  margin-bottom: 90px;
+  color: gray;
+  text-shadow: 2px 2px 5px white;
+}
+body {
+  margin: 0;
+  background: url('https://www.wfpa.org/wp-content/uploads/2019/08/GettyImages-1140597925.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  // background-color: #22b24b;
+}
+.wrapper {
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 14px rgb(66, 66, 66);
+}

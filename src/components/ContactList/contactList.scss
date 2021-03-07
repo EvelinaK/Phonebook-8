@@ -1,0 +1,84 @@
+@import 'styles/shared.scss';
+
+.list {
+  max-width: 100%;
+  text-align: center;
+  list-style: none;
+  word-break: break-all;
+}
+.actions {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 10px 5px;
+  font-size: medium;
+  font-weight: 400;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  justify-content: flex-end;
+}
+.listItem {
+  margin-bottom: 20px;
+}
+
+.listItemText {
+  margin-right: 10px;
+  margin: 0 auto;
+}
+
+.contacts-button {
+  border-radius: 5px;
+  border: none;
+  margin: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  background: linear-gradient(to right, #708657 1%, #555e4c 100%);
+  color: #fff;
+  padding: 0.5em;
+  &:hover,
+  &:focus {
+    background: rgb(170, 189, 171);
+    color: rgb(88, 134, 107);
+    box-shadow: 0 0 15px rgba(140, 179, 155, 0.8);
+  }
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contacts-list {
+  max-width: 70%;
+  margin: 1em auto 2em;
+  background: linear-gradient(to right, #e1f1d1 54%, #555e4c 100%);
+  padding: 2em;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.contacts {
+  align-items: center;
+  text-align: center;
+  margin: 10px 5px;
+  font-size: medium;
+  font-weight: 400;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  justify-content: flex-end;
+  display: flex;
+  background: linear-gradient(to right, #a9b899 68%, #555e4c 100%);
+  padding: 0.5em;
+  margin-bottom: 0.4em;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  max-height: 100px;
+  overflow: hidden;
+  transition: all 300ms ease;
+
+  .contacts-button {
+    margin-right: 1em;
+  }
+
+  &.deleted {
+    max-height: 0px;
+    padding: 0;
+    margin-bottom: 0;
+    opacity: 0;
+  }
+}
